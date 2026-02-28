@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steph By Steph</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+
+body{
+margin:0;
+background:#f5f3ef;
+font-family:'Inter', sans-serif;
+color:#111;
+line-height:1.6;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+}
+
+h1,h2{
+font-family:'Cormorant Garamond', serif;
+font-weight:600;
+}
+
+h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+h2{
+font-size:30px;
+margin-bottom:20px;
+}
+
+p{
+font-size:16px;
+font-weight:300;
+}
+
+.nav{
+position:fixed;
+top:20px;
+right:40px;
+font-size:14px;
+}
+
+.nav a{
+text-decoration:none;
+color:#111;
+margin-left:10px;
+}
+
+.button{
+display:inline-block;
+margin-top:30px;
+padding:14px 28px;
+background:#111;
+color:#fff;
+text-decoration:none;
+letter-spacing:1px;
+font-size:14px;
+}
+
+.section{
+margin-top:100px;
+}
+
+.footer{
+text-align:center;
+padding:60px 20px;
+font-size:12px;
+color:#777;
+}
+
+.hidden{
+display:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+<a href="#" onclick="setLanguage('es')">ES</a> |
+<a href="#" onclick="setLanguage('en')">EN</a>
+</div>
+
+<div class="container">
+
+<!-- ESPAÑOL -->
+
+<div id="es">
+
+<h1>Steph By Steph</h1>
+<p><strong>Consultoría de Optimización Premium</strong></p>
+<p>Un sistema optimizado elimina fricción y maximiza rendimiento diario.</p>
+<a href="TU_LINK_CALENDLY_ES" class="button">Reservar asesoría personalizada</a>
+
+<div class="section">
+<h2>El Contexto</h2>
+<p>La acumulación sin estructura genera saturación visual y mental. Un vestidor amplio no garantiza claridad.</p>
+<p>Sin un sistema definido, la toma de decisiones se vuelve lenta y la inversión realizada pierde coherencia estratégica.</p>
+<p>Cuando existe método, criterio y organización, el armario se transforma en una herramienta alineada con tu posicionamiento y estilo de vida.</p>
+</div>
+
+<div class="section">
+<h2>El Método</h2>
+<p><strong>Diagnóstico estratégico.</strong> Análisis profundo del vestidor actual y su alineación con tu realidad profesional.</p>
+<p><strong>Arquitectura estructural.</strong> Organización por escenarios reales: reuniones, viajes, conferencias, ocio.</p>
+<p><strong>Optimización de combinaciones.</strong> Curaduría de looks que maximizan cada prenda existente.</p>
+<p><strong>Dossier digital personalizado.</strong> Sistema estructurado entregado y explicado presencialmente.</p>
+</div>
+
+<div class="section">
+<h2>Experiencia Boutique · Barcelona</h2>
+<p>Servicio desarrollado en tres sesiones presenciales distribuidas estratégicamente.</p>
+<p>Incluye intervención en domicilio, desarrollo interno del sistema y entrega personalizada.</p>
+<p>Soporte posterior durante 10 días para garantizar implementación adecuada.</p>
+</div>
+
+<div class="section">
+<h2>Fundadora</h2>
+<p>Experiencia en firmas internacionales de lujo como Céline, Bottega Veneta y Valentino Garavani.</p>
+<p>El enfoque trasciende el estilismo puntual y se centra en la construcción de estructuras funcionales y duraderas.</p>
+<p>“La moda pasa, el estilo permanece.”</p>
+</div>
+
+</div>
+
+<!-- ENGLISH -->
+
+<div id="en" class="hidden">
+
+<h1>Steph By Steph</h1>
+<p><strong>Premium Wardrobe Optimisation Consultancy</strong></p>
+<p>An optimised system removes friction and enhances daily performance.</p>
+<a href="TU_LINK_CALENDLY_EN" class="button">Book Private Advisory</a>
+
+<div class="section">
+<h2>The Context</h2>
+<p>Accumulation without structure creates visual and mental overload. A generous wardrobe does not guarantee clarity.</p>
+<p>Without a defined system, decision-making slows down and previous investments lose strategic coherence.</p>
+<p>With method and structure, the wardrobe becomes a refined instrument aligned with lifestyle and professional presence.</p>
+</div>
+
+<div class="section">
+<h2>The Method</h2>
+<p><strong>Strategic Assessment.</strong> In-depth analysis of the existing wardrobe and its alignment with your professional reality.</p>
+<p><strong>Structural Architecture.</strong> Organisation by real-life scenarios: meetings, travel, conferences, leisure.</p>
+<p><strong>Look Optimisation.</strong> Curated combinations maximising each existing piece.</p>
+<p><strong>Personal Digital Dossier.</strong> A structured system delivered and explained in person.</p>
+</div>
+
+<div class="section">
+<h2>Boutique Experience · Barcelona</h2>
+<p>A three-stage private process conducted in person.</p>
+<p>Includes on-site intervention, strategic development and personalised delivery.</p>
+<p>10-day follow-up support to ensure seamless implementation.</p>
+</div>
+
+<div class="section">
+<h2>Founder</h2>
+<p>Background within international luxury houses including Céline, Bottega Veneta and Valentino Garavani.</p>
+<p>The approach moves beyond styling and focuses on building enduring wardrobe systems with clarity and intention.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Steph By Steph
+</div>
+
+<script>
+function setLanguage(lang){
+document.getElementById('es').classList.add('hidden');
+document.getElementById('en').classList.add('hidden');
+document.getElementById(lang).classList.remove('hidden');
+}
+</script>
+
+</body>
+</html>
